@@ -7,7 +7,7 @@ public class DBUtil {
     private static final String DB_USER = "root";
     private static final String DB_PASS = "coderslab";
     private static final String DB_URL = "jdbc:mysql://127.0.0.1:3306/workshop2?useSSL=false&characterEncoding=utf8&serverTimezone=UTC";
-
+    private static final String DB_URL1 = "jdbc:mysql://localhost:3306/cinemas_ex?useSSL=false&characterEncoding=utf8&serverTimezone=UTC";
 
     public static Connection connect() throws SQLException {
         return DriverManager.getConnection(DB_URL, DB_USER, DB_PASS);
